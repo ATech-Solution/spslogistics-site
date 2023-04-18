@@ -22,30 +22,39 @@
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet">	
 	<link href="assets/css/style.css" rel="stylesheet">
 	<style>
-		/*@font-face {
-		  font-family: 'Open Sans';
-		  font-style: italic;
-		  font-weight: 400;
-		  font-stretch: 100%;
-		  src: url(https://fonts.gstatic.com/s/opensans/v34/memtYaGs126MiZpBA-UFUIcVXSCEkx2cmqvXlWqWtE6FxZCJgvAQ.woff2) format('ttf');
-		  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
-		}*/
-
-		@font-face {	
-			font-family: 'Lato-Light';
-			src: url(assets/fonts/Lato-Light.ttf) format('ttf')!important;
+		/*https://www.fontsquirrel.com/tools/webfont-generator*/
+		
+		@font-face {
+		    font-family: 'ibm_plex_sansbold';
+		    src: url('assets/fonts/ibmplexsans-bold-webfont.woff2') format('woff2'),
+		         url('assets/fonts/ibmplexsans-bold-webfont.woff') format('woff');
+		    font-weight: normal;
+		    font-style: normal;
 		}
-		p{
-			font-family: Lato-Light!important;
+		@font-face {
+		    font-family: 'latolight';
+		    src: url('assets/fonts/lato-light-webfont.woff2') format('woff2'),
+		         url('assets/fonts/lato-light-webfont.woff') format('woff');
+		    font-weight: normal;
+		    font-style: normal;
 		}
-		.slide--headline, 
-		h2.heading--title,
 		.slider .slide--headline,
-		.heading .heading--title{
-			font-family: 'IBMPlexSans';
-			src: url(assets/fonts/IBMPlexSans-Bold.ttf) format('ttf')!important;
-			font-weight: bold;
+		h2.heading--title,
+		.heading .heading--title,
+		.footer-widget .footer--widget-title h5{
+			font-family: 'ibm_plex_sansbold';
 		}
+		body, 
+		.slider .slide--bio,
+		.btn--bordered.btn--primary,
+		p,
+		.feature--content h3,
+		.footer-widget .footer--widget-contact ul li,
+		.footer--copyright{
+			font-family: latolight!important;
+		}
+		
+		.feature-panel .feature--content p{opacity: 1!important}
 		.hidden{display: none!important;}
 		.feature--icon img{width: 55px;}
 		#feature2 .feature--icon img{margin-top: -50px;}
