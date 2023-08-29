@@ -3155,7 +3155,7 @@ section {
   color: #d8ae76;
 }
 .blog-entry .entry--content {
-  color: #aaaaaa;
+  /*color: #aaaaaa;*/
   font-size: 14px;
   font-weight: 400;
   line-height: 24px;
@@ -3165,7 +3165,7 @@ section {
   overflow: hidden;
 }
 .blog-entry .entry--more a {
-  color: #aaaaaa;
+  /*color: #aaaaaa;*/
   font-size: 14px;
   font-weight: 400;
   line-height: 1;
@@ -3202,7 +3202,7 @@ section {
 .blog-single .blog-entry .entry--content {
   padding-bottom: 26px;
   margin-bottom: 30px;
-  border-bottom: 1px solid #eeeeee;
+  /*border-bottom: 1px solid #eeeeee;*/
 }
 .blog-single .blog-entry .entry--content,
 .blog-single .blog-entry .entry--content p {
@@ -3723,5 +3723,65 @@ ul.comments-list ul.comment-children ul .comment-body .comment {
 .body-boxed .col-content {
   padding: 90px;
 }
+
+/*custom*/
+/*https://www.fontsquirrel.com/tools/webfont-generator*/    
+    .hidden{display: none!important;}
+    @font-face {
+        font-family: 'ibm_plex_sansbold';
+        src: url('fonts/ibmplexsans-bold-webfont.woff2') format('woff2'),
+             url('fonts/ibmplexsans-bold-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    @font-face {
+        font-family: 'latolight';
+        src: url('fonts/lato-light-webfont.woff2') format('woff2'),
+             url('fonts/lato-light-webfont.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+    }
+    .slider .slide--headline,
+    h2.heading--title,
+    .heading .heading--title,
+    .footer-widget .footer--widget-title h5{
+        font-family: 'ibm_plex_sansbold';
+    }
+    body, 
+    .slider .slide--bio,
+    .btn--bordered.btn--primary,
+    p,
+    .feature--content h3,
+    .footer-widget .footer--widget-contact ul li,
+    .footer--copyright{
+        font-family: latolight!important;
+    }
+    p{
+        color: #999999!important;
+    }
+    strong{
+        font-weight: 600!important;
+        color: #898989!important;
+        font-family: sans-serif!important;
+    }
+    .feature--content h3{text-transform: none!important;}
+    .feature-panel .feature--content p{opacity: 1!important}
+    .feature--icon img{width: 55px;}
+    #pricing .feature--icon img{margin-top: -50px;}
+    .bg-overlay-dark:before{background-color: transparent; }
+    .navbar-nav > li > a {
+          text-transform: capitalize!important;
+    }
+    .feature-panel .feature--content p{
+          opacity: 1!important
+    }
+
+    @media screen and (min-width: 1024px) {
+      .toc .navbar-nav > li > a,
+      .pop .navbar-nav > li > a {
+            color: #000!important;
+      }
+    }
+
 
 /*# sourceMappingURL=style.css.map */
