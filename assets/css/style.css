@@ -95,7 +95,7 @@ html {
 body {
   background-color: #ffffff;
   font-family: 'Open Sans', sans-serif;
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 400;
   color: #999999;
   line-height: 1.5;
@@ -367,29 +367,38 @@ section {
   margin: 0 !important;
 }
 .m-xs {
-  margin: 10px;
+  margin: 10px!important;
 }
 .m-sm {
-  margin: 20px;
+  margin: 20px!important;
 }
 .m-md {
-  margin: 40px;
+  margin: 40px!important;
 }
 .m-lg {
-  margin: 80px;
+  margin: 80px!important;
 }
 /* top margin */
 .mt-0 {
-  margin-top: 0;
+  margin-top: 0!important;
 }
 .mt-xs {
-  margin-top: 10px;
+  margin-top: 10px!important;
+}
+.mt-5 {
+  margin-top: 5px !important;
 }
 .mt-10 {
   margin-top: 10px !important;
 }
+.mt-15 {
+  margin-top: 15px !important;
+}
 .mt-20 {
   margin-top: 20px !important;
+}
+.mt-25 {
+  margin-top: 25px !important;
 }
 .mt-30 {
   margin-top: 30px !important;
@@ -401,7 +410,7 @@ section {
   margin-top: 50px !important;
 }
 .mt-60 {
-  margin-top: 60px;
+  margin-top: 60px!important;
 }
 .mt-70 {
   margin-top: 70px !important;
@@ -416,20 +425,26 @@ section {
   margin-top: 100px !important;
 }
 .mt-150 {
-  margin-top: 150px;
+  margin-top: 150px!important;
 }
 /* bottom margin */
 .mb-0 {
   margin-bottom: 0 !important;
 }
-.mb-15 {
-  margin-bottom: 15px;
+.mb-5 {
+  margin-bottom: 5px !important;
 }
 .mb-10 {
   margin-bottom: 10px !important;
 }
+.mb-15 {
+  margin-bottom: 15px!important;
+}
 .mb-20 {
   margin-bottom: 20px !important;
+}
+.mb-25 {
+  margin-bottom: 25px !important;
 }
 .mb-30 {
   margin-bottom: 30px !important;
@@ -460,67 +475,105 @@ section {
 }
 /* right margin */
 .mr-0 {
-  margin-right: 0;
+  margin-right: 0!important;
+}
+.mr-5 {
+  margin-right: 5px !important;
+}
+.mr-10 {
+  margin-right: 10px !important;
+}
+.mr-15 {
+  margin-right: 15px !important;
+}
+.mr-20 {
+  margin-right: 20px !important;
+}
+.mr-25 {
+  margin-right: 25px !important;
 }
 .mr-30 {
   margin-right: 30px !important;
 }
 .mr-50 {
-  margin-right: 50px;
+  margin-right: 50px!important;
 }
 .mr-60 {
-  margin-right: 60px;
+  margin-right: 60px!important;
 }
 .mr-150 {
-  margin-right: 150px;
+  margin-right: 150px!important;
 }
 /* left margin */
 .ml-0 {
-  margin-left: 0;
+  margin-left: 0!important;
 }
 .ml-xs {
-  margin-left: 10px;
+  margin-left: 10px!important;
 }
 .ml-sm {
-  margin-left: 20px;
+  margin-left: 20px!important;
 }
 .ml-md {
-  margin-left: 40px;
+  margin-left: 40px!important;
 }
 .ml-lg {
-  margin-left: 80px;
+  margin-left: 80px!important;
+}
+.ml-5 {
+  margin-left: 5px !important;
+}
+.ml-10 {
+  margin-left: 10px !important;
+}
+.ml-15 {
+  margin-left: 15px !important;
+}
+.ml-20 {
+  margin-left: 20px !important;
+}
+.ml-25 {
+  margin-left: 25px !important;
 }
 .ml-30 {
   margin-left: 30px !important;
 }
 .ml-50 {
-  margin-left: 50px;
+  margin-left: 50px!important;
 }
 .ml-60 {
-  margin-left: 60px;
+  margin-left: 60px!important;
 }
 .ml-150 {
-  margin-left: 150px;
+  margin-left: 150px!important;
 }
+
 /* All padding */
 .p-0 {
   padding: 0 !important;
 }
 .p-xs {
-  padding: 10px;
+  padding: 10px!important;
 }
 .p-sm {
-  padding: 20px;
+  padding: 20px!important;
 }
 .p-md {
-  padding: 40px;
+  padding: 40px!important;
 }
 .p-lg {
-  padding: 80px;
+  padding: 80px!important;
 }
+
 /* top padding */
 .pt-0 {
   padding-top: 0 !important;
+}
+.pt-10 {
+  padding-top: 10px !important;
+}
+.pt-15 {
+  padding-top: 15px !important;
 }
 .pt-20 {
   padding-top: 20px !important;
@@ -532,19 +585,19 @@ section {
   padding-top: 40px !important;
 }
 .pt-50 {
-  padding-top: 50px;
+  padding-top: 50px!important;
 }
 .pt-60 {
-  padding-top: 60px;
+  padding-top: 60px!important;
 }
 .pt-70 {
   padding-top: 70px !important;
 }
 .pt-80 {
-  padding-top: 80px;
+  padding-top: 80px!important;
 }
 .pt-90 {
-  padding-top: 90px;
+  padding-top: 90px!important;
 }
 .pt-100 {
   padding-top: 100px !important;
@@ -556,79 +609,109 @@ section {
 .pb-0 {
   padding-bottom: 0 !important;
 }
+.pb-10 {
+  padding-bottom: 10px !important;
+}
+.pb-15 {
+  padding-bottom: 15px !important;
+}
+.pb-20 {
+  padding-bottom: 20px !important;
+}
 .pb-30 {
-  padding-bottom: 30px;
+  padding-bottom: 30px!important;
 }
 .pb-50 {
-  padding-bottom: 50px;
+  padding-bottom: 50px!important;
 }
 .pb-60 {
-  padding-bottom: 60px;
+  padding-bottom: 60px!important;
 }
 .pb-70 {
   padding-bottom: 70px !important;
 }
 .pb-80 {
-  padding-bottom: 80px;
+  padding-bottom: 80px!important;
 }
 .pb-90 {
-  padding-bottom: 90px;
+  padding-bottom: 90px!important;
 }
 .pb-100 {
   padding-bottom: 100px !important;
 }
 /* right padding */
 .pr-0 {
-  padding-right: 0;
+  padding-right: 0!important;
 }
 .pr-xs {
-  padding-right: 10px;
+  padding-right: 10px!important;
 }
 .pr-sm {
-  padding-right: 20px;
+  padding-right: 20px!important;
 }
 .pr-md {
-  padding-right: 40px;
+  padding-right: 40px!important;
 }
 .pr-lg {
-  padding-right: 80px;
+  padding-right: 80px!important;
+}
+.pr-5 {
+  padding-right: 5px!important;
+}
+.pr-10 {
+  padding-right: 10px!important;
 }
 .pr-15 {
   padding-right: 15px !important;
+}
+.pr-20 {
+  padding-right: 20px!important;
 }
 .pr-30 {
   padding-right: 30px !important;
 }
 .pr-50 {
-  padding-right: 50px;
+  padding-right: 50px!important;
 }
 .pr-60 {
-  padding-right: 60px;
+  padding-right: 60px!important;
 }
 .pr-100 {
   padding-right: 100px !important;
 }
 .pr-150 {
-  padding-right: 150px;
+  padding-right: 150px!important;
 }
 /* left padding */
 .pl-0 {
   padding-left: 0 !important;
 }
+.pl-5 {
+  padding-left: 5px!important;
+}
+.pl-10 {
+  padding-left: 10px!important;
+}
+.pl-15 {
+  padding-left: 15px!important;
+}
+.pl-20 {
+  padding-left: 20px!important;
+}
 .pl-30 {
-  padding-left: 30px;
+  padding-left: 30px!important;
 }
 .pl-50 {
-  padding-left: 50px;
+  padding-left: 50px!important;
 }
 .pl-60 {
-  padding-left: 60px;
+  padding-left: 60px!important;
 }
 .pl-100 {
   padding-left: 100px !important;
 }
 .pl-150 {
-  padding-left: 150px;
+  padding-left: 150px!important;
 }
 /* Postions */
 .fixed {
@@ -687,8 +770,8 @@ section {
 }
 @media only screen and (max-width: 767px) {
   section {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 60px!important;
+    padding-bottom: 60px!important;
   }
   .text-center-xs {
     text-align: center !important;
@@ -698,20 +781,20 @@ section {
     text-align: center !important;
   }
   .mb-15-xs {
-    margin-bottom: 15px;
+    margin-bottom: 15px!important;
   }
   .mb-30-xs {
     margin-bottom: 30px !important;
   }
   .mb-50-xs {
-    margin-bottom: 50px;
+    margin-bottom: 50px!important;
   }
   .mb-60-xs {
     margin-bottom: 60px !important;
   }
   .p-none-xs {
-    padding-right: 0;
-    padding-left: 0;
+    padding-right: 0!important;
+    padding-left: 0!important;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -719,31 +802,31 @@ section {
     text-align: center !important;
   }
   .mb-0-sm {
-    margin-bottom: 0;
+    margin-bottom: 0!important;
   }
   .mb-15-sm {
-    margin-bottom: 15px;
+    margin-bottom: 15px!important;
   }
   .mb-30-sm {
     margin-bottom: 30px !important;
   }
   .mb-50-sm {
-    margin-bottom: 50px;
+    margin-bottom: 50px!important;
   }
   .mb-60-sm {
-    margin-bottom: 60px;
+    margin-bottom: 60px!important;
   }
   .pb-15-sm {
-    padding-bottom: 15px;
+    padding-bottom: 15px!important;
   }
   .pb-30-sm {
-    padding-bottom: 30px;
+    padding-bottom: 30px!important;
   }
   .pb-50-sm {
-    padding-bottom: 50px;
+    padding-bottom: 50px!important;
   }
   .pb-60-sm {
-    padding-bottom: 60px;
+    padding-bottom: 60px!important;
   }
   .p-none-sm {
     padding-right: 0;
@@ -3723,65 +3806,4 @@ ul.comments-list ul.comment-children ul .comment-body .comment {
 .body-boxed .col-content {
   padding: 90px;
 }
-
-/*custom*/
-/*https://www.fontsquirrel.com/tools/webfont-generator*/    
-    .hidden{display: none!important;}
-    @font-face {
-        font-family: 'ibm_plex_sansbold';
-        src: url('fonts/ibmplexsans-bold-webfont.woff2') format('woff2'),
-             url('fonts/ibmplexsans-bold-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-    }
-    @font-face {
-        font-family: 'latolight';
-        src: url('fonts/lato-light-webfont.woff2') format('woff2'),
-             url('fonts/lato-light-webfont.woff') format('woff');
-        font-weight: normal;
-        font-style: normal;
-    }
-    .slider .slide--headline,
-    h2.heading--title,
-    .heading .heading--title,
-    .footer-widget .footer--widget-title h5{
-        font-family: 'ibm_plex_sansbold';
-    }
-    body, 
-    .slider .slide--bio,
-    .btn--bordered.btn--primary,
-    p,
-    .feature--content h3,
-    .footer-widget .footer--widget-contact ul li,
-    .footer--copyright{
-        font-family: latolight!important;
-    }
-    p{
-        color: #999999!important;
-    }
-    strong{
-        font-weight: 600!important;
-        color: #898989!important;
-        font-family: sans-serif!important;
-    }
-    .feature--content h3{text-transform: none!important;}
-    .feature-panel .feature--content p{opacity: 1!important}
-    .feature--icon img{width: 55px;}
-    #pricing .feature--icon img{margin-top: -50px;}
-    .bg-overlay-dark:before{background-color: transparent; }
-    .navbar-nav > li > a {
-          text-transform: capitalize!important;
-    }
-    .feature-panel .feature--content p{
-          opacity: 1!important
-    }
-
-    @media screen and (min-width: 1024px) {
-      .toc .navbar-nav > li > a,
-      .pop .navbar-nav > li > a {
-            color: #000!important;
-      }
-    }
-
-
 /*# sourceMappingURL=style.css.map */
